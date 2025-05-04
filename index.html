@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <h1 id="header" ><span style="color: red;font-size: 1.8em;">S</span>earch Your Image<span style="color: red;font-size: 1.5em;">s</span>...<span id="theme-toggle" title="Switch Theme">☀️</i></span></h1>
+
+<form id="search-form">
+    <input type="text" id="search-text" list="suggestions" placeholder="Search for nature, city, food...">
+<datalist id="suggestions">
+  <option value="Nature">
+  <option value="Mountains">
+  <option value="City">
+  <option value="Beach">
+  <option value="Animals">
+  <option value="Cars">
+</datalist>
+    <button type="submit" id="btn">
+        🔍
+    </button>
+</form>
+
+    <div class="search-results">
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?q=80&w=776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Mountain Under the Sky">
+            <a href="https://unsplash.com/photos/dog-running-on-beach-during-daytime-yihlaRCCvd4" target="_blank">Mountains Under The Sky</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1522255272218-7ac5249be344?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Mountain Under the Sky">
+            <a href="https://unsplash.com/photos/dog-running-on-beach-during-daytime-yihlaRCCvd4" target="_blank">Zoe Hailing</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Mountain Under the Sky">
+            <a href="https://unsplash.com/photos/dog-running-on-beach-during-daytime-yihlaRCCvd4" target="_blank">Nathan Dumalo</a>
+        </div>
+    </div>
+    <button id="show-more">Show More</button>
+    <script src="index.js"></script>
+</body>
+
+</html>
