@@ -1,63 +1,86 @@
+<h1 align="center">🌄 Image Search Web App</h1>
 
-#🌄 Image Search Web App
+<p align="center">
+  A sleek and responsive web application to search and view beautiful images using the Unsplash API. <br>
+  Built with HTML, CSS, and JavaScript, featuring light/dark mode and infinite image loading.
+</p>
 
-A sleek and responsive web application to search and view beautiful images using the Unsplash API. Built using HTML, CSS, and JavaScript with features like dark/light theme toggling and infinite image loading.
+---
 
-##✨ Features
+## ✨ Features
 
--🔍 Search for images by keyword (e.g., nature, food, city).
+- 🔍 **Search by Keyword** — Find images by topics like `nature`, `food`, `city`, and more.
+- 🖼️ **Dynamic Display** — Images load instantly using the Unsplash API.
+- 🌙 **Light/Dark Mode** — Theme toggling with local storage support.
+- 📱 **Fully Responsive** — Looks great on mobile, tablet, and desktop.
+- 📤 **"Show More" Button** — Load more images without refreshing the page.
 
--🖼️ Displays images dynamically from Unsplash API.
+---
 
--🌙 Light/Dark mode with local storage theme persistence.
+## 📂 Project Structure
 
--📱 Fully responsive layout for all screen sizes.
+image-search-app/
+  ├── index.html     # Main HTML structure
+  ├── style.css      # Styles and theme rules
+  ├── index.js       # JavaScript logic (API calls + theme toggle)
+  └── README.md      # Project documentation
 
--📤 "Show More" button for paginated results.
+---
 
-##📂 Project Structure
+## 🚀 Getting Started
 
-project-folder/
-│
-├── index.html        # Main HTML structure
-├── style.css         # Styles and theme rules
-├── index.js          # JavaScript logic for API calls and theme toggle
-└── README.md         # Project documentation
+### ✅ Prerequisites
 
-##🚀 Getting Started
+- A modern web browser (Chrome, Firefox, Edge)
+- Internet connection (for fetching images from Unsplash)
 
--Prerequisites
+### 🔧 Installation
 
--A browser (Chrome, Firefox, etc.)
-
--Internet connection (for fetching data from Unsplash)
-
--Installation
-
--Clone the repository or download the project files:
-
-#git clone https://github.com/yourusername/image-search-app.git
-cd image-search-app
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/image-search-app.git
+   cd image-search-app
 
 Get an Unsplash API Access Key:
 
 Visit Unsplash Developers
 
-Sign in and register a new app to get your Access Key
+Register a new application and obtain your Access Key
 
-Replace the accessKey in index.js:
+Configure the API Key:
+Open index.js and replace the placeholder:
 
+javascript
+Copy
+Edit
 const accessKey = "YOUR_UNSPLASH_ACCESS_KEY";
-
+Launch the App:
 Open index.html in your browser.
 
-##💠 Built With
 
--HTML5
 
--CSS3 (Flexbox, Media Queries)
 
--JavaScript (ES6+)
 
--Unsplash API
+###
 
+###
+
+
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+
+</div>
+
+<br clear="both">
+
+
+###
