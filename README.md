@@ -3,19 +3,19 @@
 
 A sleek and responsive web application to search and view beautiful images using the Unsplash API. Built using HTML, CSS, and JavaScript with features like dark/light theme toggling and infinite image loading.
 
-✨ Features
+##✨ Features
 
-🔍 Search for images by keyword (e.g., nature, food, city).
+-🔍 Search for images by keyword (e.g., nature, food, city).
 
-🖼️ Displays images dynamically from Unsplash API.
+-🖼️ Displays images dynamically from Unsplash API.
 
-🌙 Light/Dark mode with local storage theme persistence.
+-🌙 Light/Dark mode with local storage theme persistence.
 
-📱 Fully responsive layout for all screen sizes.
+-📱 Fully responsive layout for all screen sizes.
 
-📤 "Show More" button for paginated results.
+-📤 "Show More" button for paginated results.
 
-📂 Project Structure
+##📂 Project Structure
 
 project-folder/
 │
@@ -24,19 +24,19 @@ project-folder/
 ├── index.js          # JavaScript logic for API calls and theme toggle
 └── README.md         # Project documentation
 
-🚀 Getting Started
+##🚀 Getting Started
 
-Prerequisites
+-Prerequisites
 
-A browser (Chrome, Firefox, etc.)
+-A browser (Chrome, Firefox, etc.)
 
-Internet connection (for fetching data from Unsplash)
+-Internet connection (for fetching data from Unsplash)
 
-Installation
+-Installation
 
-Clone the repository or download the project files:
+-Clone the repository or download the project files:
 
-git clone https://github.com/yourusername/image-search-app.git
+#git clone https://github.com/yourusername/image-search-app.git
 cd image-search-app
 
 Get an Unsplash API Access Key:
@@ -51,13 +51,13 @@ const accessKey = "YOUR_UNSPLASH_ACCESS_KEY";
 
 Open index.html in your browser.
 
-💠 Built With
+##💠 Built With
 
-HTML5
+-HTML5
 
-CSS3 (Flexbox, Media Queries)
+-CSS3 (Flexbox, Media Queries)
 
-JavaScript (ES6+)
+-JavaScript (ES6+)
 
-Unsplash API
+-Unsplash API
 
